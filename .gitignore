@@ -13,6 +13,11 @@
 # testing
 /coverage
 
+# cypress
+cypress/videos
+cypress/screenshots
+cypress/downloads
+
 # next.js
 /.next/
 /out/
@@ -39,3 +44,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# terraform
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+*.tfvars.json
+terraform-outputs.json
